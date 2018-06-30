@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Codystar|Nixie+One|Spirax" rel="stylesheet">
+    <script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Makeup Your Mind</title>
+  </head>
+  <body>
+      <h1 id="makeup">Makeup Your Mind</h1>
+      <p id="blurb">A Decisive Guide on the Best in Beauty</p>
+      <br>
+      <a href="#goToLogin">Login</a>
+      <a href="#goToLogin">Sign Up</a>
+
+      <div id="goToLogin">
+    <form action="action_page.php">
+        <div class="imgcontainer">
+          <img src="images/girl.png" alt="Avatar" class="avatar">
+        </div>
+      
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+      
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
